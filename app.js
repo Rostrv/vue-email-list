@@ -12,8 +12,6 @@ const app = new Vue({
                     this.mail_random = response.data.response
                     this.mailList.push(this.mail_random)
                 })
-
-
         }
     }
 
